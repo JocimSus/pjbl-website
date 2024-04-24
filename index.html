@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="sticky">
+      <a href="index.html" class="navigation">Home</a>
+      <!--buat dropdown
+      <a href="index.html" class="navigation">Our Activites</a>
+      -->
+
+      <div class="navigation">
+        <span>Our Activites</span>
+        <div class="navigation-content">
+          <a href="it1.html">111111</a>
+          <a href="it2.html">222222</a>
+          <a href="it3.html">333333</a>
+        </div>
+      </div>
+
+      <a href="index.html" class="navigation">Gallery</a>
+    </nav>
+
+    <div class="carousel">
+      <div class="img-slide">
+        <img src="pics/technical.jpg" class="carousel-img" />
+      </div>
+      <div class="img-slide">
+        <img src="pics/spaceship2.jpg" class="carousel-img" />
+      </div>
+      <div class="img-slide">
+        <img src="pics/rocket_launch.jpg" class="carousel-img" />
+      </div>
+
+      <a class="prev-btn" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next-btn" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div id="home" class="main-section">
+      <div class="background-image">
+        <h1>Welcome to Your Website</h1>
+      </div>
+    </div>
+
+    <div id="about" class="main-section">
+      <h2>About Us</h2>
+    </div>
+
+    <div id="services" class="main-section">
+      <h2>Our Services</h2>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
