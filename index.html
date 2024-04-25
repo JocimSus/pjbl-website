@@ -3,20 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Website Title</title>
+    <title>Live In</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav id="navbar" class="sticky">
       <a href="index.html" class="navigation">Home</a>
-      <!--buat dropdown
-      <a href="index.html" class="navigation">Our Activites</a>
-      -->
 
       <div class="navigation">
-        <span>Our Activites</span>
+        <span>Our Activities</span>
         <div class="navigation-content">
-          <a href="it1.html">111111</a>
+          <a href="pages/experiences.html">Our Experiences</a>
           <a href="it2.html">222222</a>
           <a href="it3.html">333333</a>
         </div>
@@ -25,35 +22,73 @@
       <a href="index.html" class="navigation">Gallery</a>
     </nav>
 
-    <div class="carousel">
-      <div class="img-slide">
-        <img src="pics/technical.jpg" class="carousel-img" />
-      </div>
-      <div class="img-slide">
-        <img src="pics/spaceship2.jpg" class="carousel-img" />
-      </div>
-      <div class="img-slide">
-        <img src="pics/rocket_launch.jpg" class="carousel-img" />
+    <div class="hero">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="pics/tree.jpg" alt="Image 1" />
+        </div>
+        <div class="slide">
+          <img src="pics/spaceship1.jpg" alt="Image 2" />
+        </div>
+        <div class="slide">
+          <img src="pics/spaceship2.jpg" alt="Image 3" />
+        </div>
       </div>
 
-      <a class="prev-btn" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next-btn" onclick="plusSlides(1)">&#10095;</a>
+      <h1 class="title">Kelompok 23</h1>
+      <h1 class="title2">Live In</h1>
+      <div id="dark"></div>
+      <div id="darkfade"></div>
     </div>
 
-    <div id="home" class="main-section">
-      <div class="background-image">
-        <h1>Welcome to Your Website</h1>
+    <div
+      style="
+        display: block;
+        background-color: rgba(255, 87, 51);
+        padding: 20px 10% 0px 10%;
+      "
+    >
+      <div style="display: flex">
+        <img
+          src="pics/sunset-mountain-beautiful.jpg"
+          height="650"
+          width="650"
+          title="Basic Game"
+          style="transform: scale(0.5); margin: -155px"
+        />
+        <div style="display: block; margin-left: 2%; width: 60%">
+          <h2>Sorting Functions</h2>
+          <p style="margin: auto; width: 100%">
+            Merupakan kumpulan dari beberapa algoritma / fungsi sorting. Dalam
+            program tersebut algoritma yang muncul itu selection sort, insertion
+            sort, dan merge sort. Saya sudah membuatnya interaktif dengan
+            visualisasi sedikit untuk memberikan gambaran yang lebih jelas
+            terhadap metodenya.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex">
+        <div style="display: block; margin-right: 2%; width: 60%">
+          <h2 style="text-align: right">Basic Game</h2>
+          <p style="margin: auto; width: 100%; text-align: right">
+            Merupakan permainan sederhana yang dianimasikan menggunakan CSS
+            transform dengan setInterval. Permainan ini berfungsi seperti
+            biasanya dengan bola berpantul secara acak pada sisi kanan dan bola
+            akan bergerak semakin cepat seiring berjalannya waktu sampai terjadi
+            kegagalan.
+          </p>
+        </div>
+        <iframe
+          src="pics/technical.jpg"
+          height="650"
+          width="650"
+          title="Basic Game"
+          style="transform: scale(0.5); margin: -155px"
+        ></iframe>
       </div>
     </div>
 
-    <div id="about" class="main-section">
-      <h2>About Us</h2>
-    </div>
-
-    <div id="services" class="main-section">
-      <h2>Our Services</h2>
-    </div>
+    <script src="index.js"></script>
   </body>
-
-  <script src="index.js"></script>
 </html>

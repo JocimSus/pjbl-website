@@ -4,6 +4,7 @@ Projek website PJBL
 Jeff, Joachim, Yogo
 
 # Todo:
-* Image Carousel
+* ~~Image Carousel~~
 * Page templates
 * Introduction (Waiting for others)
+* Website visitor counter (buat penilaian soalnya)
