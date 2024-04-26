@@ -176,6 +176,21 @@ nav#navbar {
   padding: 5%;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aspek-title {
+  font-weight: 600;
+  font-style: semibold;
+}
+
+.spacer {
+  height: 100px;
+}
+
 /*Image Carousel*/
 .carousel {
   max-width: 100vw;
