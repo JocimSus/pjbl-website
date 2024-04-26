@@ -199,6 +199,10 @@ nav#navbar {
   height: 100px;
 }
 
+.spacer-small {
+  height: 40px;
+}
+
 /*Image Carousel*/
 .carousel {
   max-width: 100vw;
