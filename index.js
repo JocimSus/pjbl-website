@@ -18,12 +18,12 @@ function plusSlides() {
   // Change image source after fade out
   setTimeout(function () {
     image.src = "Photos_Simplified/" + imageindex + ".JPG";
-  }, 800); // Adjust timing to match the transition duration
+  }, 400); // Adjust timing to match the transition duration
 
   // Fade in new image
   setTimeout(function () {
     image.style.opacity = 1;
-  }, 1000); // Adjust timing to match the transition duration
+  }, 500); // Adjust timing to match the transition duration
 }
 
 function adjust() {
