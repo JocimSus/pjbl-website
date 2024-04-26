@@ -3,7 +3,7 @@ function test(x) {
 }
 
 var imageindex = Math.floor(Math.random() * 10) + 1;
-var maxindex = 10;
+var maxindex = 16;
 var autoslide = setInterval(plusSlides, 6000);
 
 function plusSlides() {
@@ -18,12 +18,12 @@ function plusSlides() {
   // Change image source after fade out
   setTimeout(function () {
     image.src = "Photos_Simplified/" + imageindex + ".JPG";
-  }, 500); // Adjust timing to match the transition duration
+  }, 800); // Adjust timing to match the transition duration
 
   // Fade in new image
   setTimeout(function () {
     image.style.opacity = 1;
-  }, 600); // Adjust timing to match the transition duration
+  }, 1000); // Adjust timing to match the transition duration
 }
 
 function adjust() {
