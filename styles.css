@@ -39,10 +39,15 @@ input {
   padding: 15px;
 }
 
-h1,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 /*Navbar*/
@@ -138,6 +143,7 @@ nav#navbar {
   display: block;
   margin-left: 2%;
   width: 60%;
+  text-align: center;
 }
 
 .parentsection {
@@ -153,12 +159,14 @@ nav#navbar {
 }
 
 .mainlink {
-  padding: 0px;
-  margin-top: 5%;
+  padding: 5px;
+  margin-top: 3%;
   font-size: 30px;
   width: 100%;
   color: white;
-  text-decoration: underline;
+  background-color: rgba(0, 60, 60, 1);
+  border-radius: 20px;
+  text-align: center;
 }
 
 .aboutname {
@@ -173,7 +181,7 @@ nav#navbar {
   max-width: 60%;
   max-height: 100%;
   margin: auto;
-  padding: 5%;
+  padding: 0% 5%;
 }
 
 .center {
