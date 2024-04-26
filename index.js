@@ -53,6 +53,7 @@ function adjust() {
     document.getElementById("title2").style.fontSize = "8vh";
     img.style.width = "auto";
     img.style.height = "100%";
+    document.getElementById("footerdiv").style.flexDirection = "column";
   } else {
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.fontSize = "3vh";
@@ -68,6 +69,7 @@ function adjust() {
     document.getElementById("title2").style.fontSize = "8vw";
     img.style.width = "100%";
     img.style.height = "auto";
+    document.getElementById("footerdiv").style.flexDirection = "row";
   }
 }
 

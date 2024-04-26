@@ -308,3 +308,10 @@ nav#navbar {
   text-align: center;
   display: block;
 }
+
+.footerdiv {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  align-items: flex-start;
+}
