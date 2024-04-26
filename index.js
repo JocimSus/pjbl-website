@@ -23,7 +23,7 @@ function plusSlides() {
   // Fade in new image
   setTimeout(function () {
     image.style.opacity = 1;
-  }, 500); // Adjust timing to match the transition duration
+  }, 600); // Adjust timing to match the transition duration
 }
 
 function adjust() {
