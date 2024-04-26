@@ -5,6 +5,7 @@ Jeff, Joachim, Yogo
 
 # Todo:
 * ~~Image Carousel~~
-* Page templates
-* Introduction (Waiting for others)
+* ~~Page templates~~
+* Main Page (Tinggal perlu penjelasan)
+* Informasi setiap page
 * Website visitor counter (buat penilaian soalnya)
